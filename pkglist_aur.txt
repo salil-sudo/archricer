@@ -1,0 +1,10 @@
+aleo-fonts
+bottom
+brave-bin
+libxft-bgra
+ncurses5-compat-libs
+polybar
+rofi-dmenu
+spotify
+ttf-font-awesome-4
+yay
