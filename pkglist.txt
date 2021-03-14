@@ -27,6 +27,7 @@ gzip
 imagemagick
 libnotify
 libtool
+lightdm
 linux
 linux-firmware
 lxappearance
@@ -46,7 +47,6 @@ python-pip
 python2-pip
 ranger
 rofi
-sddm
 sed
 starship
 sudo
