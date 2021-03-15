@@ -12,6 +12,8 @@
 
 This script is is a side-project I made to make my life easier when I want to migrate to a new machine or clean format my own machine and have my customized setup in place without much effort. I made one simple shell script that does it all.
 
+Some features and specs of this setup can be found [here](https://github.com/salil-sudo/archricer/blob/main/FEATURES.md)
+
 An **ArcoLinux** based version of this script can be found [here](https://github.com/salil-sudo/arcoricer)
 #### Warning: Use this archricer at your own risk. Best thing to do is install it on a freshly erased drive. Dont forget to backup your data before you do anything (Unless you know what you are doing :wink:)
 
@@ -31,7 +33,7 @@ Installation is straightforward:
     git clone https://github.com/salil-sudo/archricer
     cd archricer
     bash ./archricer
-    systemctl enable lightdm.service
+    systemctl enable sddm.service
     reboot
 
 ## Post-installation
