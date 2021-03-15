@@ -3,8 +3,8 @@ bottom
 brave-bin
 libxft-bgra
 ncurses5-compat-libs
+picom-tryone-git
 polybar
 rofi-dmenu
 spotify
 ttf-font-awesome-4
-yay

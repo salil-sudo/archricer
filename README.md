@@ -1,25 +1,25 @@
 
-# Autoricer Lite: A script that installs my setup
+# ArchRicer: A script that installs my setup on Arch Linux
 
 <p align="middle">
   <img src=images/arco_unix.gif height="90%" width="90%">
 
 </p>
 
-#### Please read the instructions here carefully before installling anything
+#### Please read the instructions here carefully before installing anything
 
 ## What is this?
 
-This is a minimal version of my [autoricer](https://github.com/salil-sudo/autoricer) for freshly installed Arch linux (vanilla Arch).
+This script is is a side-project I made to make my life easier when I want to migrate to a new machine or clean format my own machine and have my customized setup in place without much effort. I made one simple shell script that does it all.
 
-
-#### Warning: Use this autoricer at your own risk. Best thing to do is install it on a freshly erased drive. Dont forget to backup your data before you do anything (Unless you know what you are doing :wink:)
+An **ArcoLinux** based version of this script can be found [here](https://github.com/salil-sudo/arcoricer)
+#### Warning: Use this archricer at your own risk. Best thing to do is install it on a freshly erased drive. Dont forget to backup your data before you do anything (Unless you know what you are doing :wink:)
 
 ## Pre-Installation
 
-#### If you are testing this in a virtual machine, please refer to [known issues](#known-issues) section. 
+#### If you are testing this in a virtual machine, please refer to [known issues](#known-issues) section.
 
-Make sure you have created a user and logged in as a user and not the root. You will have to install `git` .
+This script is intended to work with freshly installed Arch (vanilla Arch). Make sure you have created a user and **logged in as a user** and **not as root**. You will have to install `git` .
 
     sudo pacman -S git
 
@@ -28,9 +28,9 @@ Make sure you have created a user and logged in as a user and not the root. You 
 Installation is straightforward:
 
     sudo pacman -Syu
-    git clone https://github.com/salil-sudo/autoricer
-    cd autoricer
-    bash ./autoricer
+    git clone https://github.com/salil-sudo/archricer
+    cd archricer
+    bash ./archricer
     systemctl enable lightdm.service
     reboot
 
@@ -54,7 +54,7 @@ After that just remove the old config file `~/.config/picom.conf` and the in `~/
 
 ## Acknowledgements & Contributions
 
-As we all do (at some point), I have taken some code snippets from internet formus and other places on the internet. I have mentioned the places I got my scripts and snippets from in [THANKS.md](https://github.com/salil-sudo/autoricer/blob/main/THANKS.md). I have modified and adopted these to my own taste and convinience. For some reason, if you see your script or part of it and feel that I havent credited you, just let me know, I will do so. Any improvements, suggestions, feature requests and debloatings are of course welcome.  
+As we all do (at some point), I have taken some code snippets from internet formus and other places on the internet. I have mentioned the places I got my scripts and snippets from in [THANKS.md](https://github.com/salil-sudo/archricer/blob/main/THANKS.md). I have modified and adopted these to my own taste and convinience. For some reason, if you see your script or part of it and feel that I havent credited you, just let me know, I will do so. Any improvements, suggestions, feature requests and debloatings are of course welcome.
 
 ## Contact
 <salil@salil.cool>
