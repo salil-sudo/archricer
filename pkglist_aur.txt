@@ -1,7 +1,6 @@
 aleo-fonts
 bottom
 brave-bin
-libxft-bgra
 ncurses5-compat-libs
 picom-tryone-git
 polybar
