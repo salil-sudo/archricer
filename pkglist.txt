@@ -51,6 +51,7 @@ starship
 sudo
 sxhkd
 texinfo
+ttf-cascadia-code
 ttf-fira-code
 ttf-font-awesome
 ttf-hack
